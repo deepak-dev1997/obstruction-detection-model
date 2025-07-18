@@ -57,4 +57,4 @@ def predict():
     return send_file(io_buf, mimetype='image/png')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5010,debug=False)
